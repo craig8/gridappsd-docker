@@ -2,7 +2,7 @@ version: '2'
 
 services:
   derms_app:
-    image: gridappsd/gridappsd-cim-interop${GRIDAPPSD_TAG}
+    image: derms_app:local
     environment:
       GRIDAPPSD_URI: tcp://gridappsd:61613
   #    GRIDAPPSD_USER: system
